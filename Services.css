@@ -1,0 +1,141 @@
+body{
+   
+    background-color:rgb(180, 132, 155);
+}
+
+
+ul
+{
+    margin-top: 0px;
+    word-spacing: 30px;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+a:hover
+{
+    color:blue;
+}
+a
+{
+    text-decoration: none;
+}
+li
+{
+    display:inline;
+}
+* 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container 
+{
+    width: 100%;
+    padding: 2rem;
+    cursor:pointer; 
+    transform: 0.5s;
+}
+.container h1 
+{
+    text-align: center;
+    margin: 1rem;
+}
+.skills 
+{
+    
+    /* display: flex; */
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+.skills .web-dev,.mywork 
+{
+    /* box-shadow: 2px 2px 2px #555; */
+    width: 40%;
+    padding: 2rem;
+    text-align: center;
+    margin: 1rem;
+}
+.web-dev
+{
+    box-shadow:0 0 21px 0px rgba(0,0,0,0.1);
+    border-radius: 20px;
+}
+.web-dev:hover
+{
+    transform:translateY(-10px);
+}
+.mywork
+{
+    box-shadow:0 0 21px 0px rgba(0,0,0,0.1);
+    border-radius: 20px;
+}
+.mywork:hover
+{
+    transform:translateY(-10px);
+}
+#Main
+{
+    height: 50px;
+    background-color:#eee7e7;
+    height: 90px;
+}
+#Image
+{
+    display: inline-block;
+    margin-left: 10% ;
+    margin-top: 2px;
+}
+h1
+{
+    font-family:cursive;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 10px;
+    color: rgb(105, 249, 70);
+
+}
+#Navbar
+{
+    float: right;
+    height: 100px;
+    margin-right: 120px;
+    margin-top:30px;
+}
+/* .react-dev,.web-dev
+{
+    border:2px solid black;
+    border-radius: 20px;
+} */
+/* .react-dev:hover
+{
+    border-color: greenyellow;
+}
+.web-dev:hover
+{
+    border-color: greenyellow
+} */
+@media only screen and (max-width:768px) {
+
+    #Navbar{
+      margin-top: 0px;
+      margin-right: 20px;
+
+      
+    }
+    h1{
+        font-size: 20px;
+     display: inline;
+    
+        
+    }
+    #Main{
+      
+        height: 30px;
+        background-color:#eee7e7;
+        height: 60px;
+    }
+  
+    
+}
